@@ -73,6 +73,8 @@ let formBuyDrink = [
                     users[userIndex][1] -= sum;
                     machinesDrinks[machineIndex][drinkIndex] -= 1;
                     //window.location.href = "../index.html";
+
+                    alert("You bought a drink!");
                 }
 
                 //return false;

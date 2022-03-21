@@ -20,8 +20,10 @@ select {
     width: 200px;
 }
 
-/* label {
-} */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
 
 input[type=submit] {
     margin-top: 50px;
@@ -36,4 +38,8 @@ input[type=button] {
 
 table {
     font-size: 200%;
+}
+
+.indent {
+    margin: 30px;
 }

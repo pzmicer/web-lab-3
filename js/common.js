@@ -28,7 +28,7 @@ function createTable(rootHTML, tableName, headers, elements) {
 }
 
 
-function createForm(root, formArray, onclick) {
+function createForm(root, formArray) {
     var form = document.createElement("form");
     root.append(form);
 
